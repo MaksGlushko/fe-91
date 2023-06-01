@@ -37,10 +37,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42;
 }
-.list { 
-list-style: none
-}
-.header-menu-link {
+.header-menu {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -49,8 +46,11 @@ list-style: none
     letter-spacing: 0.02em;
     color: #434455   
 }
-.header-menu-link:hover .header-menu-link:focus {
-    color: #404bbf    
+.header-navigation list {
+    list-style: none
+}
+.header-menu-link:hover, .header-menu-link:focus {
+    background-color: #404BBF
 }
 /* --------------HERO-------------- */
 .hero {
@@ -102,9 +102,10 @@ color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #2E2F42;
+    background: #F4F4FD
 }
 .team-subtitle {
     font-weight: 500;
@@ -112,6 +113,7 @@ font-size: 20px;
 line-height: 1.20;
 letter-spacing: 0.02em;
 color: #2E2F42;
+background-color: #FFFFFF
 }
 .team-item-text {
     font-weight: 400;
