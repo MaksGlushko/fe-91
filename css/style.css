@@ -19,10 +19,10 @@ link {
     text-decoration: none;
 }
 .list style {
-    list-style: none;
+    text-decoration: none
 }
 /* --------------HEADER-------------- */
-.header-logo {
+.header-logo link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -31,7 +31,7 @@ link {
     text-transform: uppercase;
     color: #4D5AE5;
 }
-.header-logo span {
+.header-logo link span {
     font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -78,6 +78,7 @@ color: #FFFFFF;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.20;
+letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .benefists-item-text {
