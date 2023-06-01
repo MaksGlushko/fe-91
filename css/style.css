@@ -9,22 +9,21 @@ body {
     background-color: #FFFFFF;
     color: #434455;
 }
-.a {
+a {
     text-decoration: none;
 }
-.ul{
+ul{
     list-style: none;
 }
-.link {
+link {
     text-decoration: none;
 }
 .list style {
     list-style: none;
 }
 /* --------------HEADER-------------- */
-.header-link {
+.header-logo-link {
 font-family: "Raleway", sans-serif;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -32,14 +31,15 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
 }
-.span {
-font-weight: 800;
+.header-logo-link span {
+    font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42;
 }
+
 .header-menu-link {
     font-family: 'Roboto';
     font-style: normal;
@@ -80,7 +80,6 @@ font-size: 20px;
 line-height: 1.20;
 color: #2E2F42;
 }
-
 .benefists-item-text {
 font-weight: 400;
 font-size: 16px;
