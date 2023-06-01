@@ -15,23 +15,19 @@ a {
 ul{
     list-style: none;
 }
-link {
-    text-decoration: none;
-}
 .list style {
     text-decoration: none
 }
 /* --------------HEADER-------------- */
 .header-logo link {
-    font-family: "Raleway", sans-serif;
+    font-family :"Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4D5AE5;
 }
-.header-logo link span {
+.header-logo-link span {
     font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -49,7 +45,7 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #2E2F42    
 }
-.header-menu-link:hover,.header-menu-link:focus {
+.header-menu-link:hover .header-menu-link:focus {
     background-color: #404BBF   
 }
 /* --------------HERO-------------- */
