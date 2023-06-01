@@ -49,9 +49,8 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #2E2F42    
 }
-.header-menu-link:hover
-.header-menu-link:focus {
-background-color: #404BBF
+.header-menu-link:hover,.header-menu-link:focus {
+    background-color: #404BBF   
 }
 /* --------------HERO-------------- */
 .hero {
