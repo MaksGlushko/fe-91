@@ -9,13 +9,13 @@ body {
     background-color: #FFFFFF;
     color: #434455;
 }
-a {
+.a {
     text-decoration: none;
 }
-ul{
+.ul{
     list-style: none;
 }
-link {
+.link {
     text-decoration: none;
 }
 .list style {
@@ -23,15 +23,14 @@ link {
 }
 /* --------------HEADER-------------- */
 .header-logo {
-font-family: 'Raleway';
-font-style: normal;
+font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: #4D5AE5;
 }
-.header-logo span {
+.span {
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
