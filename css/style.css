@@ -46,11 +46,12 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #434455   
 }
-.header-navigation list {
+.list {
     list-style: none
 }
 .header-menu-link:hover, .header-menu-link:focus {
-    background-color: #404BBF
+    background-color: #404BBF 
+    color #404bbf
 }
 /* --------------HERO-------------- */
 .hero {
