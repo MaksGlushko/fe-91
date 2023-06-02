@@ -48,6 +48,13 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #434455   
 }
+.header-menu-link {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: var(--title-color)
+}
 .list {
     list-style: none;
 }
@@ -85,14 +92,14 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.20;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--title-color)
 }
 .benefists-item-text {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--title-color)
 }/* --------------PRODUCTS-------------- */
 
 .products title {
@@ -115,8 +122,8 @@ color: #434455;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
-    background: #F4F4FD;
+    text-transform: capitalize;
+    color: var(--title-color)
 }
 .team-subtitle {
     font-weight: 500;
@@ -124,7 +131,7 @@ font-size: 20px;
 line-height: 1.20;
 letter-spacing: 0.02em;
 color: #2E2F42;
-background-color: #FFFFFF
+background-color: #FFFFFF;
 }
 .team-item-text {
     font-weight: 400;
