@@ -85,7 +85,7 @@ font-style: normal;
 .header-text-link {
     text-decoration: none;
 }
-.header-title-item:hover, .header-title-item:focus {
+.header-menu:hover, .header-menu:focus {
     color: #404bbf;
 }
 /* --------------HERO-------------- */
