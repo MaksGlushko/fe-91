@@ -98,6 +98,9 @@ letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
 /* --------------PRODUCTS-------------- */
+.products {
+    background-color: var(--second-text-color);
+}
 .products title {
     font-family: 'Roboto';
     font-style: normal;
