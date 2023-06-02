@@ -101,6 +101,7 @@ color: #434455;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    background-color: #F4F4FD
 }
 .team-title {
     font-family: 'Roboto';
@@ -128,8 +129,12 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: #434455;
 }
+.web-background {
+    background-color: #2e2f42;
+}
 .web-title {
-    font-weight: 800;
+font-family: "Raleway", sans-serif;
+font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -141,6 +146,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: #F4F4FD;
+text-transform: uppercase
 }
 .web-item-text{
 font-weight: 400;
