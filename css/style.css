@@ -52,6 +52,9 @@ color: var(--title-color);
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
+.header-navigation {
+    list-style: none;
+}
 .header-menu:hover, .header-menu:focus {
     color: #404bbf;
 }
@@ -128,7 +131,7 @@ color: var(--main-text-color);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 .team {
     background-color: #F4F4FD
