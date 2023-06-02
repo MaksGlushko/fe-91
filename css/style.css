@@ -54,7 +54,7 @@ color: var(--title-color);
 .header-address {
     font-style: normal;
 }
-.list {
+.lheader-menu {
     list-style: none;
 }
 /* --------------HERO-------------- */
@@ -113,7 +113,7 @@ color: var(--main-text-color);
     color: var(--title-color) 
 }
 .products-item {
-    background-color: var(--second-text-color);
+    background-color: #F4F4FD
 }
 .team-title {
     font-family: 'Roboto';
