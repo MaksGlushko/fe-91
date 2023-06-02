@@ -52,7 +52,16 @@ color: var(--title-color);
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
-.header-menu-link:hover, .header-menu-link:focus {
+.header-soc-item {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: rgb(67, 68, 85)
+}
+.header-menu:hover, .header-menu:focus {
     color: #404bbf;
 }
 
