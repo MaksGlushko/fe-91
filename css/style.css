@@ -74,6 +74,9 @@ color: #FFFFFF;
     color: #FFFFFF;
     background-color: #4d5ae5
 }
+.header-menu-link:hover, .header-menu-link:focus {
+    background-color: #404BBF 
+}
 .style {
     cursor: pointer;
 }
