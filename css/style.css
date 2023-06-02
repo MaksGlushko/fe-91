@@ -98,9 +98,6 @@ letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
 /* --------------PRODUCTS-------------- */
-.products {
-    background-color: var(--second-text-color);
-}
 .products title {
     font-family: 'Roboto';
     font-style: normal;
@@ -111,6 +108,9 @@ color: var(--main-text-color);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-color) 
+}
+.products-item {
+    background-color: var(--second-text-color);
 }
 .team-title {
     font-family: 'Roboto';
