@@ -52,7 +52,6 @@ color: #2E2F42;
 }
 .header-menu-link:hover, .header-menu-link:focus {
     background-color: #404BBF 
-    color #404bbf
 }
 /* --------------HERO-------------- */
 .hero {
@@ -75,6 +74,10 @@ color: #FFFFFF;
     color: #FFFFFF;
     background-color: #4d5ae5
 }
+.style {
+    cursor: pointer;
+}
+
 /* --------------BENEFISTS-------------- */
 .benefists-subtitle {
 font-weight: 500;
@@ -138,6 +141,7 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
+text-transform: uppercase;
 color: #4D5AE5;
 }
 .web-title span {
