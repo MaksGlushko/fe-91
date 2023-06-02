@@ -5,6 +5,7 @@
 --background: #E5E5E5;
 --color-two: #4D5AE5;
 --color-white: #ffffff;
+--color-three:#404bbf; 
 }
 
 body {
@@ -24,7 +25,7 @@ ul{
     text-decoration: none
 }
 .header-menu-link:hover, .header-menu-link:focus {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 /* --------------HEADER-------------- */
 
