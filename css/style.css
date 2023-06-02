@@ -3,7 +3,10 @@
 --main-text-color: #434455;
 --second-text-color: #F4F4FD;
 --background: #E5E5E5;
+--color-two: #4D5AE5;
+--color-white: #ffffff;
 }
+
 body {
     font-family: "Raleway" sans-serif;
     font-family: "Roboto", sans-serif;
@@ -29,7 +32,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color: var(--color-two);
 }
 .header-logo span {
     font-weight: 800;
@@ -37,7 +40,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42;
+color: var(--title-color);
 }
 .header-menu {
     font-family: 'Roboto';
@@ -46,21 +49,14 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455   
-}
-.header-menu-link {
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.50;
-letter-spacing: 0.02em;
-color: var(--title-color)
+    color: var(--main-text-color);   
 }
 .list {
     list-style: none;
 }
 /* --------------HERO-------------- */
 .hero {
-    background-color: #2E2F42;;
+    background-color: #2E2F42;
 }
 .hero-title {
     font-weight: 700;
@@ -68,7 +64,7 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--color-white);
 }
 .hero-btn {
     font-family: "Roboto", sans-serif;
@@ -76,11 +72,11 @@ color: #FFFFFF;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: #4d5ae5;
+    color: var(--color-white);
+    background-color: var(--color-two);
 }
 .header-menu-link:hover, .header-menu-link:focus {
-    background-color: #404BBF;
+    background-color: var(--color-two);
 }
 .style {
     cursor: pointer;
@@ -92,15 +88,16 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.20;
 letter-spacing: 0.02em;
-color: var(--title-color)
+color: var(--title-color);
 }
 .benefists-item-text {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
-color: var(--title-color)
-}/* --------------PRODUCTS-------------- */
+color: var(--main-text-color);
+}
+/* --------------PRODUCTS-------------- */
 
 .products title {
     font-family: 'Roboto';
@@ -111,8 +108,8 @@ color: var(--title-color)
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
-    background-color: #F4F4FD
+    color: var(--title-color);
+    background-color: var(--second-text-color);
 }
 .team-title {
     font-family: 'Roboto';
@@ -140,6 +137,7 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: #434455;
 }
+/* --------------FOOTER-------------- */
 .web-background {
     background-color: #2e2f42;
 }
