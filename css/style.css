@@ -21,7 +21,7 @@ ul{
     list-style: none;
 }
 .list style {
-    list-style: none;
+    text-decoration: none
 }
 /* --------------HEADER-------------- */
 
@@ -43,13 +43,13 @@ text-transform: uppercase;
 color: var(--title-color);
 }
 .header-menu {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--main-text-color);   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);   
 }
 .list {
     list-style: none;
@@ -57,12 +57,6 @@ color: var(--main-text-color);
 /* --------------HERO-------------- */
 .hero {
     background-color: #2E2F42;
-}
-.header-menu-link:hover, .header-menu-link:focus {
-        background-color: var(--color-two);
-}
-.style {
-    cursor: pointer;
 }
 .hero-title {
     font-weight: 700;
@@ -80,6 +74,12 @@ color: var(--color-white);
     letter-spacing: 0.04em;
     color: var(--color-white);
     background-color: var(--color-two);
+}
+.header-menu-link:hover, .header-menu-link:focus {
+    background-color: var(--color-two);
+}
+.style {
+    cursor: pointer;
 }
 
 /* --------------BENEFISTS-------------- */
