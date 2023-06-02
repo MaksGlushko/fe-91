@@ -22,7 +22,7 @@ ul{
     list-style: none;
 }
 .list style {
-    text-decoration: none
+    text-decoration: none;
 }
 /* --------------HEADER-------------- */
 
@@ -43,7 +43,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
 }
-.header-menu {
+.header-text-link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -59,7 +59,7 @@ color: var(--title-color);
     color: #404bbf;
 }
 .header-menu {
-    text-decoration:none
+    text-decoration:none;
 }
 .header-soc-item {
     font-family: 'Roboto';
@@ -68,7 +68,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
-color: rgb(67, 68, 85)
+color: rgb(67, 68, 85);
 }
 .header-menu:hover, .header-menu:focus {
     color: #404bbf;
@@ -133,20 +133,28 @@ color: var(--main-text-color);
     text-transform: capitalize;
     color: var(--title-color);
 }
+.products-item {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42; 
+}
 .team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 .team-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--title-color);
-    background-color: var(--second-text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--title-color);
 }
 .team-item {
     background-color: var(--color-white);
@@ -185,7 +193,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: #F4F4FD;
-text-transform: uppercase
+text-transform: uppercase;
 }
 .web-item-text{
 font-weight: 400;
