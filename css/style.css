@@ -96,9 +96,9 @@ color: var(--color-white);
     background-color: var(--color-two);
 }
 .hero-btn:hover, .hero-btn:focus {
-    background-color: #404BBF
+    color: #404bbf;
 }
-.hero-btn {
+.style {
     cursor: pointer;
 }
 
