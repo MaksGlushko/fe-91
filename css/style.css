@@ -83,6 +83,9 @@ font-style: normal;
 .header-logo {
     text-decoration: none;
 }
+.header-title-item {
+    text-decoration:none;
+}
 /* --------------HERO-------------- */
 .hero {
     background-color: #2E2F42;
