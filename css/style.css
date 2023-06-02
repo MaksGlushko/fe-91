@@ -43,14 +43,14 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
 }
-.header-text {
+.header-menu {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
+    color: var(--title-color);
 }
 .header-soc-item {
     font-family: 'Roboto';
@@ -61,7 +61,7 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: rgb(67, 68, 85)
 }
-.header-text:hover, .header-text:focus {
+.header-menu:hover, .header-menu:focus {
     color: #404bbf;
 }
 
@@ -125,9 +125,7 @@ color: var(--main-text-color);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--title-color)
-}
-.products-item {
+    color: #2E2F42;
 }
 .team {
     background-color: #F4F4FD
