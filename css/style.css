@@ -70,6 +70,9 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: rgb(67, 68, 85);
 }
+.header-soc-item {
+    text-decoration: none;
+}
 .header-address{
 font-style: normal;
 }
@@ -82,7 +85,7 @@ font-style: normal;
 .header-text-link {
     text-decoration: none;
 }
-.header-text-link:hover, .header-text-link:focus {
+.header-title-item:hover, .header-title-item:focus {
     color: #404bbf;
 }
 /* --------------HERO-------------- */
