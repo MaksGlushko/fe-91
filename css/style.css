@@ -52,6 +52,9 @@ color: var(--title-color);
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
+.header-menu {
+    text-decoration:none
+}
 .header-soc-item {
     font-family: 'Roboto';
 font-style: normal;
@@ -96,7 +99,7 @@ color: var(--color-white);
     background-color: var(--color-two);
 }
 .hero-btn:hover, .hero-btn:focus {
-    color: #404bbf;
+    background-color: #404BBF;
 }
 .style {
     cursor: pointer;
