@@ -24,9 +24,6 @@ ul{
 .list style {
     text-decoration: none
 }
-.header-menu-link:hover, .header-menu-link:focus {
-    color: #404bbf;
-}
 /* --------------HEADER-------------- */
 
 .header-logo {
@@ -54,6 +51,9 @@ color: var(--title-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-color);
+}
+.header-menu-link:hover, .header-menu-link:focus {
+    color: #404bbf;
 }
 
 .header-address{
