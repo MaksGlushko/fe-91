@@ -51,6 +51,9 @@ color: var(--title-color);
     letter-spacing: 0.02em;
     color: var(--main-text-color);   
 }
+.header-address {
+    font-style: normal;
+}
 .list {
     list-style: none;
 }
