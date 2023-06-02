@@ -55,7 +55,7 @@ color: var(--title-color);
 .header-navigation {
     list-style: none;
 }
-.header-menu:hover, .header-menu:focus {
+.header-text-link:hover, .header-text-link:focus {
     color: #404bbf;
 }
 .header-menu {
