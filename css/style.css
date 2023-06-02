@@ -50,9 +50,6 @@ color: #2E2F42;
 .list {
     list-style: none
 }
-.header-menu-link:hover, .header-menu-link:focus {
-    background-color: #404BBF 
-}
 /* --------------HERO-------------- */
 .hero {
     background-color: #2E2F42;;
@@ -118,8 +115,6 @@ color: #434455;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
-}
-.item-title {
     background: #F4F4FD;
 }
 .team-subtitle {
