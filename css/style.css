@@ -120,7 +120,11 @@ color: var(--main-text-color);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--title-color)
+    color: var(--title-color);
+    background-color: var(--second-text-color);
+}
+.team-item {
+    background-color: var(--color-white);
 }
 .team-subtitle {
     font-weight: 500;
