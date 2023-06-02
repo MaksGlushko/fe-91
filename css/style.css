@@ -52,6 +52,9 @@ color: var(--title-color);
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
+.header-menu:hover, .header-menu:focus {
+    color: #404bbf;
+}
 .header-menu {
     text-decoration:none
 }
@@ -97,14 +100,11 @@ color: var(--color-white);
     letter-spacing: 0.04em;
     color: var(--color-white);
     background-color: var(--color-two);
+    cursor: pointer;
 }
 .hero-btn:hover, .hero-btn:focus {
     background-color: #404BBF;
 }
-.style {
-    cursor: pointer;
-}
-
 /* --------------BENEFISTS-------------- */
 .benefists-subtitle {
 font-weight: 500;
