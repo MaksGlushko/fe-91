@@ -247,7 +247,9 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
-
+.portfolio-img-item {
+    text-decoration: none;
+}
 
 
 
