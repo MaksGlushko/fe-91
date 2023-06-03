@@ -211,7 +211,8 @@ color: #F4F4FD;
 
 /* --------------header-PORTFOLIO-------------- */
 .hero-main-btn {
-    font-weight: 500;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.50;
 text-align: center;
@@ -222,6 +223,9 @@ background-color: var(--second-text-color);
 .hero-main-btn {
     cursor: pointer;
 }
-.hero-main-button:hover, .hero-main-button:focus {
+.hero-main-btn:hover, .hero-main-btn:focus {
 background-color: #404BBF
+}
+.hero-main-btn:hover, .hero-main-btn:focus {
+    color:#FFFFFF;
 }
