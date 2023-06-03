@@ -61,14 +61,12 @@ color: var(--title-color);
 .header-menu {
     text-decoration:none;
 }
-.header-soc-item {
-    font-family: 'Roboto';
-font-style: normal;
+.header-soc-title {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
-color: rgb(67, 68, 85);
+color: var(--main-text-color)
 }
 .header-soc-item {
     text-decoration: none;
