@@ -129,7 +129,7 @@ letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
 /* --------------PRODUCTS-------------- */
-.products title {
+.products-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
