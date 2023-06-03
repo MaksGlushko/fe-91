@@ -86,6 +86,9 @@ font-style: normal;
 .header-menu:hover, .header-menu:focus {
     color: #404bbf;
 }
+.header-soc-title:hover,.header-soc-title:focus {
+    color: #404bbf
+}
 /* --------------HERO-------------- */
 .hero {
     background-color: #2E2F42;
